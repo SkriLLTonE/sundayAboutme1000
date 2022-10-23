@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -28,11 +29,13 @@
             </nav>
         </div>
     </header>
-    <!-- shift + alt + F -->
+
     <section class="banner">
-        <div class="banner__wrap">
-            <h1>Добро пожаловать на мой сайт</h1>
-            <button class="banner__btn">Позвонить</button>
+        <div class="container">
+            <div class="banner__wrap">
+                <h1>Добро пожаловать на мой сайт</h1>
+                <button class="banner__btn">Позвонить</button>
+            </div>
         </div>
     </section>
     <section class="about">
@@ -143,20 +146,41 @@
                         <button class="card__btn">Посмотреть</button>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="./img/cardImg.png" alt="">
-                    <div class="card__body">
-                        <h4>Чиланзар</h4>
-                        <p>Впервые фото было изобретено Жозефом Нисефором Ньепсом. Это произошло в 1822 году, Дагер же
-                            опубликовал свою работу только через 17 лет. Жозеф Ньепс смог получить первое негативное
-                            изображение в 1835 году </p>
-                        <button class="card__btn">Посмотреть</button>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-
+    <footer class="footer">
+        <div class="container">
+            <h6 class="footer__h">Связаться со мной</h6>
+            <ul class="contacts">
+                <li class="contacts__list">
+                    <a href="#" class="contact__link">
+                        <img src="./img/cont1.png" alt="">
+                    </a>
+                </li>
+                <li class="contacts__list">
+                    <a href="#" class="contact__link">
+                        <img src="./img/cont2.png" alt="">
+                    </a>
+                </li>
+                <li class="contacts__list">
+                    <a href="#" class="contact__link">
+                        <img src="./img/cont3.png" alt="">
+                    </a>
+                </li>
+                <li class="contacts__list">
+                    <a href="#" class="contact__link">
+                        <img src="./img/cont4.png" alt="">
+                    </a>
+                </li>
+                <li class="contacts__list">
+                    <a href="#" class="contact__link">
+                        <img src="./img/cont5.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
